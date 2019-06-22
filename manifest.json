@@ -1,0 +1,26 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Heroku",
+  "description": "Easy access your Heroku projects",
+  "developer_name": "Bruno Paz",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "kw",
+      "type": "keyword",
+      "name": "Heroku",
+      "description": "Easy access to your Heroku projects",
+      "default_value": "heroku"
+    },
+    {
+      "id": "api_key",
+      "type": "input",
+      "name": "Api Key",
+      "description": "The Api Key required to connect to Heroku. Get one from <a href=\"https://dashboard.heroku.com/account\">here</a>",
+      "default_value": ""
+    }
+  ]
+}
