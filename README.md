@@ -16,6 +16,15 @@
 * Python >=3
 * A [heroku](https://heroku.com) account.
 
+This extension uses the `requests` Python package.
+
+If you don´t have it installed, please install it with the following command:
+
+```bash
+pip install requests --user
+```
+
+
 ## Install
 
 Open ulauncher preferences window -> extensions -> add extension and paste the following url:
@@ -46,7 +55,7 @@ Contributions, issues and Features requests are welcome.
 <a href="https://www.buymeacoffee.com/Z1Bu6asGV" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 
-## License 
+## License
 
 Copywright @ 2019 [Bruno Paz](https://github.com/brpaz)
 
